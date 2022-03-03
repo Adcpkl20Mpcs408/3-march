@@ -1,0 +1,8 @@
+Write a Python program to print 10 to 1 using list comprehension.
+Program:-
+n=int(input('enter n:'))
+l=[i for i in range(n,0,-1)]
+print(l)
+Output:-
+enter n:10
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
